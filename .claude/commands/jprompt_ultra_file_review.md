@@ -2,9 +2,14 @@
 
 > Execute each task in the order given to conduct a thorough code review.
 
-## Task 1: Create file_review.md
+## Task 0: Read file
 
-Create a new file called file_review.md.
+Read the file $ARGUMENTS and summarize its functionality.
+
+## Task 1: Create markdown file
+
+Create a name for the file review markdown.  Remember it as "NAME".
+Create a new markdown file using the NAME that you created.
 
 At the top of the file, add the following markdown:
 
@@ -21,14 +26,15 @@ At the top of the file, add the following markdown:
 
 ## Task 2: Read file and append
 
-Then read $ARGUMENTS and append the output to the file.
+Append the file you read to the file you know as NAME.
 
 ## Task 3: just-prompt multi-llm tool call
 
 Then use that file as the input to this just-prompt tool call.
+Be sure to change NAME to the filename that you know.
 
 prompts_from_file_to_file(
-    from_file = file_review.md,
+    from_file = NAME,
     models = "openai:o3-mini, anthropic:claude-3-7-sonnet-20250219:4k, gemini:gemini-2.0-flash-thinking-exp"
     output_dir = ultra_file_review/
 )

@@ -1,0 +1,1 @@
+Error (gemini:gemini-2.0-flash-thinking-exp): Missing key inputs argument! To use the Google AI API, provide (`api_key`) arguments. To use the Google Cloud API, provide (`vertexai`, `project` & `location`) arguments.

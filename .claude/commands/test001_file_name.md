@@ -6,10 +6,10 @@
 
 Read the file $ARGUMENTS and summarize its functionality.
 
-## Task 1: Create file_review.md
+## Task 1: Create markdown file
 
 Create a name for the file review markdown.  Remember it as "NAME".
-Create a new file using the NAME that you created.
+Create a new markdown file using the NAME that you created.
 
 At the top of the file, add the following markdown:
 
